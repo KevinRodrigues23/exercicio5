@@ -14,18 +14,18 @@ public class Principal {
 		Scanner sc = new Scanner(System.in);
 		
 		//criação dos objetos da classe Cliente
-		Cliente c1 = new Cliente("Gabriela","Rua Dunas 189, Padre Miguel", "Rio de Janeiro", 21099832);
-		Cliente c2 = new Cliente("Brendon","Rua Londres 327, Niterói", "Canoas", 96200003);
-		Cliente c3 = new Cliente("Carla","Rua Amanda 682, Nazaré", "Salvador", 40015970);
+		Cliente c1 = new Cliente("Kevin","rua montenegro 255", "campo grande" , "Rio de Janeiro", 21099832);
+		Cliente c2 = new Cliente("Patrick","Rua Santos, Barra", "Rio", 9990083);
+		Cliente c3 = new Cliente("Rodrigues","Santa teresa 772, Centro", "Rio de janeiro", 55515970);
 		//impressão dos objetos da classe Cliente
 		System.out.println("Cliente 1: "+c1.getNome()+", "+c1.getEndereco()+", "+c1.getCidade()+", "+c1.getCep()+".");
 		System.out.println("Cliente 2: "+c2.getNome()+", "+c2.getEndereco()+", "+c2.getCidade()+", "+c2.getCep()+".");
 		System.out.println("Cliente 3: "+c3.getNome()+", "+c3.getEndereco()+", "+c3.getCidade()+", "+c3.getCep()+".");
 		
 		//criação dos objetos da classe PessoaJuridica
-		PessoaJuridica pj1 = new PessoaJuridica("Ana Maria","Rua da Fábrica 800, Bangu", "Rio de Janeiro", 21556789, "0219800001", "RJ", "Provitechne");
-		PessoaJuridica pj2 = new PessoaJuridica("Guilherme Silva","Rua da Feira 641, Marechal Hermes", "Rio de Janeiro", 21778421, "0123457899", "RJ", "Senac");
-		PessoaJuridica pj3 = new PessoaJuridica("Fábio de Jesus","Rua Pereira Passos 923, Centro", "Rio de Janeiro", 21846839, "0788631543", "RJ", "McDonald's");
+		PessoaJuridica pj1 = new PessoaJuridica("melia","Rua da Fábrica 800, Bangu", "Rio de Janeiro", 21556789, "0219800001", "RJ", "Provitechne");
+		PessoaJuridica pj2 = new PessoaJuridica("Bianca","Rua da Feira 641, Marechal Hermes", "Rio de Janeiro", 21778421, "0123457899", "RJ", "Senac");
+		PessoaJuridica pj3 = new PessoaJuridica("carla","Rua Pereira Passos 923, Centro", "Rio de Janeiro", 21846839, "0788631543", "RJ", "McDonald's");
 
 		//impressão dos objetos da classe Cliente
 		System.out.println("Pessoa Jurídica 1: "+pj1.getNome()+", "+pj1.getEndereco()+", "+pj1.getCidade()+", "+pj1.getCep()+", "+pj1.getCnpj()+", "+pj1.getInscricaoEstadual()+", "+pj1.getRazaoSocial()+".");
@@ -33,9 +33,9 @@ public class Principal {
 		System.out.println("Pessoa Jurídica 3: "+pj3.getNome()+", "+pj3.getEndereco()+", "+pj3.getCidade()+", "+pj3.getCep()+", "+pj3.getCnpj()+", "+pj3.getInscricaoEstadual()+", "+pj3.getRazaoSocial()+".");
 		
 		//criação dos objetos da classe PessoaFisica
-		PessoaFisica pf1 = new PessoaFisica("José Alencar","Rua Ademir 332", "São Paulo", 11234677, "12398872703", "24678901", 'M', new Date());
-		PessoaFisica pf2 = new PessoaFisica("Adair Costa","Rua Alecrim Dourado 446", "São Paulo", 11234665, "19786346672", "21232467", 'M', new Date());
-		PessoaFisica pf3 = new PessoaFisica("Renato Russo","Rua Pudim de Pão 778", "São Paulo", 11234623, "19084324685", "20989863", 'M', new Date());
+		PessoaFisica pf1 = new PessoaFisica("Wallyson","Rua Delta 102", "Rio de  Janeiro", 11234677, "12398872703", "24678901", 'M', new Date());
+		PessoaFisica pf2 = new PessoaFisica("Marcos","Rua barbosa", "Rio de janeiro", 11234665, "19786346672", "21232467", 'M', new Date());
+		PessoaFisica pf3 = new PessoaFisica("Wesley","Rua urca 777", "Rio de janeiro", 11234623, "19084324685", "20989863", 'M', new Date());
 		
 		//impressão dos objetos da classe Cliente
 		System.out.println("Pessoa Física 1: "+pf1.getNome()+", "+pf1.getEndereco()+", "+pf1.getCidade()+", "+pf1.getCep()+", "+pf1.getCpf()+", "+pf1.getRg()+", "+pf1.getGenero()+", "+pf1.getDataNascimento()+".");
